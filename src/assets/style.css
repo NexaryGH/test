@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f1f3f4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.primary-text {
+  color: #304653 !important;
+}
+
+.primary-text-outside {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url('/primary-color.png') !important;
+}
+
+.secondary-text {
+  color: #68879a !important;
+}
+
+.primary-box {
+  border: 2px solid #304653;
+}
+
+.locale-text {
+  white-space: pre-line;
+}
+
+.bold-text {
+  font-weight: 600 !important;
+}
+
+.btn-hirzi {
+  color: #fff !important;
+  background-color: #f9c6a1 !important;
+  border-color: #f9c6a1 !important;
+}
+
+.btn-hirzi:hover {
+  color: #fff !important;
+  background-color: #dfaf8e !important;
+  border-color: #dfaf8e !important;
+}
+
+.btn-urfa {
+  color: #fff !important;
+  background-color: #9fb5c2 !important;
+  border-color: #9fb5c2 !important;
+}
+
+.btn-urfa:hover {
+  color: #fff !important;
+  background-color: #80a6b8 !important;
+  border-color: #80a6b8 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+button:not([data-bs-target="#carouselPlace"]):focus,
+a:focus,
+textarea:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {   
+  border-color: #9fb5c2 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #9fb5c2 !important;
+  outline: 0 none !important;
+}
